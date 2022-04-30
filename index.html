@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section id="invoice">
+        <div id="header">
+            <h1>Invoice creator</h1>
+            <p id="tagline">Thanks for choosing GoodCorp, LLC!</p>
+        </div>
+        <div id="items">
+            <button id="carwash" class="task">Wash Car: $10</button>
+            <button id="lawnmow" class="task">Mow Lawn: $20</button>
+            <button id="weedpull" class="task">Pull Weeds:$30</button>
+        </div>
+        <div class="" id="particulars">
+            <div class="table" id="itemised-description">
+                <div class="table-left" id="item-description">
+                    <p class="table-heading">TASK<p>           <p id="item-container"></p>      
+                </div>
+                <div class="table-right"id="item-totals-heading">
+                    <p class="table-heading table-heading-right">TOTAL</p>
+                    <p id="item-totals"></p>
+                </div>
+            </div>
+            <div class="table" id="totals">
+                <div class="table-left" id="notes">
+                    <p class="table-heading">NOTES</p>
+                    <p id="notes-text">We accept cash, credit card or PayPal</p>
+                </div>
+                <div class="table-right: id="full-totals">
+                    <p class="table-heading table-heading-right">TOTAL AMOUNT</p>
+                    <p id="sum-total"></p>
+                </div>
+            </div>
+        </div>
+        <div id="button-container">
+            <button id="send-invoice"><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.5 4.5L16.5001 4.5C16.8829 4.49993 17.2513 4.64622 17.5297 4.90892C17.7305 5.0984 17.8737 5.33809 17.9462 5.60038L10.5 9.323L3.05384 5.60038C3.12634 5.33809 3.26945 5.0984 3.47029 4.90892C3.74874 4.64622 4.1171 4.49993 4.49991 4.5H4.5H16.5ZM10.2764 12.5652L10.5 12.677L10.7236 12.5652L18 8.92702V14C18 14.3978 17.842 14.7794 17.5607 15.0607C17.2794 15.342 16.8978 15.5 16.5 15.5H4.5C4.10218 15.5 3.72064 15.342 3.43934 15.0607L3.08959 15.4104L3.43934 15.0607C3.15804 14.7794 3 14.3978 3 14V8.92702L10.2764 12.5652Z" fill="white" stroke="white"/>
+                </svg>
+                Send Invoice</button>
+        </div>
+    </section>
+    
+    <script src="index.js"></script>
+</body>
+</html>
